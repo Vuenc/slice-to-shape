@@ -1,0 +1,11 @@
+scipy
+open3d==0.14.1
+trimesh
+pymeshlab
+pysdf
+nibabel
+scikit-image
+yacs
+potpourri3d
+tensorboard
+h5py

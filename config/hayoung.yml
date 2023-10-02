@@ -1,0 +1,6 @@
+reg:
+  mode: "ssm_samples"
+  N_ssm_samples: 100
+  ssm_sample_std: 0.5
+  train:
+    alpha: 1.0

@@ -1,0 +1,17 @@
+data_path: /data/dilab/data/
+output_path: /data/dilab/output/
+data:
+  val_fold: 3
+ssm:
+  njobs: 1
+  TrainingDetails:
+    batch_size: 32
+    n_epochs: 1
+reg:
+  corr_files: experiment_fold_3_xiqubytr/
+  train:
+    batch_size: 2
+    epochs: 1
+kde:
+  eval_path: sdf_train_fold_3_ixcqrkae/
+  sdf_batch_size: 10
